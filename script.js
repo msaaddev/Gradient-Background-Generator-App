@@ -6,7 +6,7 @@ var random = document.querySelector("button");
 
 function setGradient() {
   body.style.background =
-      "linear-gradient(to right," + color1.value + ", " + color2.value + ")";
+    "linear-gradient(to right," + color1.value + ", " + color2.value + ")";
   h3.textContent = body.style.background;
 }
 color1.addEventListener("input", setGradient);
@@ -15,8 +15,8 @@ color2.addEventListener("input", setGradient);
 
 ////Roshaan made these Changess
 function randomColor() {
-  var letters = '000123456789ABCDEF';
-  var color = '#';
+  var letters = "000123456789ABCDEF";
+  var color = "#";
   for (var i = 0; i < 6; i++) {
     color += letters[Math.floor(Math.random() * 16)];
   }
