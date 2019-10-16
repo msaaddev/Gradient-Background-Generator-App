@@ -16,7 +16,7 @@ color2.addEventListener("input", setGradient);
 
 ////Roshaan made these Changess
 function randomColor() {
-	var letters = '0123456789ABCDEF';
+	var letters = '000123456789ABCDEF';
 	var color = '#';
 	for (var i = 0; i < 6; i++) {
 	  color += letters[Math.floor(Math.random() * 16)];
